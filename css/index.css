@@ -1,0 +1,173 @@
+@font-face{
+	font-family: "fajala";
+	src: url(../fonts/fuente.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: sans-serif;
+	background-image: url(../img/cubes.png);
+}
+
+header{
+	width: 85%;
+	margin: 0 auto;
+}
+
+header #logo{
+	padding-top: 2rem;
+}
+
+header #logo a{
+	font-family: "fajala";
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: #2979CD;
+}
+
+header nav{
+	margin-top: 2rem;
+	background-color: #F9F9F9;
+	border: 1px solid #C9C9C9;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	border-right: 1px solid #D6D6D6;
+	padding: 0 1rem 0 0.5rem;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+header nav ul li a{
+	font-size: 1rem;
+	color: #838282;
+}
+
+header nav ul li:hover{
+	background-color: #CCC;
+}
+
+#separar{
+	width: 85%;
+	margin: 2rem auto;
+	display: grid;
+	grid-template: 1fr / 70% 27%;
+	grid-gap: 2rem;
+}
+
+section{
+	width: 90%;
+	background-color: white;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+section h1{
+	font-size: 32px;
+	font-weight: bold;
+	color: #444;
+	letter-spacing: 1px;
+	font-family: "fajala";
+	padding-bottom: 1rem;
+}
+
+section article a h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #2979CD;
+	letter-spacing: 1px;
+	font-family: "fajala";
+	padding-top: 1rem;
+}
+
+section article a p{
+	padding-top: 0.6rem;
+	color: #333;
+}
+
+section #verTodas{
+	display: flex;
+	justify-content: center;
+}
+
+section #verTodas a{
+	border-radius: 2px;
+	padding: 0.5rem;
+	color: white;
+	background-color: #007EE5;
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+aside div{
+	background-color: white;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+aside div h3{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+aside div form{
+	display: flex;
+	flex-direction: column;
+	padding-top: 1rem;
+}
+
+aside div form input{
+	margin-bottom: 1rem;
+}
+
+aside div form input[type="submit"]{
+	background-color: #007EE5;
+	color: white;
+	border: 0;
+	width: 70px;
+	padding: 0.5rem;
+}
+
+footer{
+	background-color: #F9F9F9;
+}
+
+footer p{
+	text-align: center;
+	padding: 2rem 0;
+}
+#usuarioLogin{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
